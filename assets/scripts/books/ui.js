@@ -8,3 +8,7 @@ const getBooksSuccess = (data) => {
 const failure = (error) => {
   console.error(error)
 }
+
+module.exports = {
+  getBooksSuccess
+}
